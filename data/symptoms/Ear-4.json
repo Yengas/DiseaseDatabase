@@ -1,0 +1,602 @@
+{
+  "code": 1,
+  "data": {
+    "symptoms": [
+      {
+        "nm": "Bleeding",
+        "id": 244,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Bruising or discoloration",
+        "id": 45,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Bruising or discoloration associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 435,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Drainage or pus",
+        "id": 309,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Ear ache",
+        "id": 347,
+        "rk": 1,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Quality",
+            "id": 5,
+            "q": "How would you describe your ear ache?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1069,
+                "vl": "sharp or stabbing",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 650,
+                "vl": "dull or achy",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 1074,
+                "vl": "burning or stinging",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 366,
+                "vl": "pressure or fullness",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 1070,
+                "vl": "throbbing",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Radio",
+            "nm": "Severity",
+            "id": 7,
+            "q": "How severe is your ear ache?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1071,
+                "vl": "mild",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 1072,
+                "vl": "moderate",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 652,
+                "vl": "severe",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Ear ache brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 4,
+                "vl": "or made worse by air travel",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 1122,
+                "vl": "or made worse by swimming",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 534,
+                "vl": "or made worse by scuba diving",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Ear ache associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 651,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Hearing loss",
+        "id": 116,
+        "rk": 2,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Side",
+            "id": 11,
+            "q": "On which side of your body is your hearing loss located?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 663,
+                "vl": "one side only",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 664,
+                "vl": "both sides",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Hearing loss brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 390,
+                "vl": "or made worse by loud noises",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Hearing loss associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 653,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Itching or burning",
+        "id": 129,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Itching or burning brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1121,
+                "vl": "or made worse by swimming",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Lump or bulge",
+        "id": 148,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Lump or bulge associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1174,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Multiple bruises of different ages",
+        "id": 493,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Numbness or tingling",
+        "id": 164,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Pain or discomfort",
+        "id": 1,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Quality",
+            "id": 5,
+            "q": "How would you describe your pain or discomfort?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1,
+                "vl": "sharp or stabbing",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 16,
+                "vl": "dull or achy",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 93,
+                "vl": "burning or stinging",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 210,
+                "vl": "pressure or fullness",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 213,
+                "vl": "throbbing",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Radio",
+            "nm": "Severity",
+            "id": 7,
+            "q": "How severe is your pain or discomfort?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 418,
+                "vl": "mild",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 111,
+                "vl": "moderate",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 3,
+                "vl": "severe",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Pain or discomfort brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1073,
+                "vl": "or made worse by air travel",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 1123,
+                "vl": "or made worse by swimming",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 533,
+                "vl": "or made worse by scuba diving",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Pain or discomfort associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 15,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Ringing in ears",
+        "id": 193,
+        "rk": 3,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Sensitive to noise",
+        "id": 199,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Swelling",
+        "id": 5,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Better",
+            "id": 16,
+            "q": "Swelling",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 331,
+                "vl": "better with ice",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Swelling associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1175,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Taste words when they are heard",
+        "id": 576,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Tenderness to touch",
+        "id": 266,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Tenderness to touch associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 434,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Warm to touch",
+        "id": 252,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      }
+    ]
+  },
+  "status": "ok"
+}

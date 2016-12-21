@@ -1,0 +1,841 @@
+{
+  "code": 1,
+  "data": {
+    "symptoms": [
+      {
+        "nm": "Abnormal gait (walking)",
+        "id": 358,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Bleeding",
+        "id": 244,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Broken bone (single fracture)",
+        "id": 578,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Broken bones (multiple fractures)",
+        "id": 354,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Bruising or discoloration",
+        "id": 45,
+        "rk": 5,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Bruising or discoloration associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 435,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Bulging veins",
+        "id": 47,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Difficulty climbing stairs",
+        "id": 607,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Difficulty getting up from a chair",
+        "id": 608,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Difficulty moving joint",
+        "id": 73,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Difficulty walking",
+        "id": 77,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Drainage or pus",
+        "id": 309,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Enlarged (dilated) veins",
+        "id": 90,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Joint pain",
+        "id": 279,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Quality",
+            "id": 5,
+            "q": "How would you describe your joint pain?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1103,
+                "vl": "burning or stinging",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Radio",
+            "nm": "Severity",
+            "id": 7,
+            "q": "How severe is your joint pain?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 373,
+                "vl": "mild",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 374,
+                "vl": "moderate",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 375,
+                "vl": "severe",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Lump or bulge",
+        "id": 148,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Multiple bruises of different ages",
+        "id": 493,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Muscle cramps or spasms (painful)",
+        "id": 282,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Muscle cramps or spasms (painful) brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 527,
+                "vl": "or made worse by lying down",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 584,
+                "vl": "or worse at night",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Muscle twitching (painless)",
+        "id": 340,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Muscle twitching (painless) brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 528,
+                "vl": "or made worse by lying down",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you experienced a possible seizure (muscle jerks or twitching) and you have no prior history of seizures please seek prompt medical attention.",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Muscle wasting",
+        "id": 474,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Muscle weakness",
+        "id": 290,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Numbness or tingling",
+        "id": 164,
+        "rk": 3,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Side",
+            "id": 11,
+            "q": "On which side of your body is your numbness or tingling located?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 839,
+                "vl": "one side only",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 840,
+                "vl": "both sides",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Numbness or tingling associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 496,
+                "vl": "animal bite",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Radio",
+            "nm": "Onset",
+            "id": 18,
+            "q": "Numbness or tingling onset",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 383,
+                "vl": "sudden",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 1075,
+                "vl": "gradual",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Pain or discomfort",
+        "id": 1,
+        "rk": 1,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Quality",
+            "id": 5,
+            "q": "How would you describe your pain or discomfort?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1,
+                "vl": "sharp or stabbing",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 16,
+                "vl": "dull or achy",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 93,
+                "vl": "burning or stinging",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 213,
+                "vl": "throbbing",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Radio",
+            "nm": "Severity",
+            "id": 7,
+            "q": "How severe is your pain or discomfort?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 418,
+                "vl": "mild",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 111,
+                "vl": "moderate",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 3,
+                "vl": "severe",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Side",
+            "id": 11,
+            "q": "On which side of your body is your pain or discomfort located?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 341,
+                "vl": "one side only",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 88,
+                "vl": "both sides",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Pain or discomfort brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 266,
+                "vl": "or made worse by walking",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 529,
+                "vl": "or made worse by lying down",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 99,
+                "vl": "or made worse by exercise or physical activity",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Pain or discomfort associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 15,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Restless (urge to move) legs",
+        "id": 445,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Restless (urge to move) legs brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 525,
+                "vl": "or made worse by lying down",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Seizures (uncontrollable jerking of limbs)",
+        "id": 468,
+        "rk": 0,
+        "txt": "If you experienced a possible seizure (rhythmic movements of arms and legs) and you have no prior history of seizures please seek prompt medical attention.",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Detail",
+            "id": 24,
+            "q": "Seizures (uncontrollable jerking of limbs):",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 579,
+                "vl": "no memory of event",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you experienced a possible seizure (rhythmic movements of arms and legs) and you have no prior history of seizures please seek prompt medical attention.",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Seizures (uncontrollable jerking of limbs) brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 638,
+                "vl": "or made worse by fever",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 1172,
+                "vl": "or made worse by heat",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Short arms and legs",
+        "id": 488,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Shortening of limb",
+        "id": 203,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Shuffling gait (feet)",
+        "id": 509,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Squatting",
+        "id": 542,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Stiffness or decreased movement",
+        "id": 11,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Sudden numbness or weakness on one side of body",
+        "id": 225,
+        "rk": 0,
+        "txt": "If you are experiencing sudden numbness or weakness on only one side of your body please seek emergency medical attention.",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Swelling",
+        "id": 5,
+        "rk": 2,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Side",
+            "id": 11,
+            "q": "On which side of your body is your swelling located?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 343,
+                "vl": "one side only",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing swelling in only one of your legs please seek prompt medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 84,
+                "vl": "both sides",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Swelling brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 660,
+                "vl": "or made worse by air travel",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Better",
+            "id": 16,
+            "q": "Swelling",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 331,
+                "vl": "better with ice",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Tenderness to touch",
+        "id": 266,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Tenderness to touch associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 434,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Twisting or rotation of limb",
+        "id": 242,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Unable to bear weight",
+        "id": 580,
+        "rk": 4,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Unable to move leg",
+        "id": 351,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Warm to touch",
+        "id": 252,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Weakness",
+        "id": 6,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Side",
+            "id": 11,
+            "q": "On which side of your body is your weakness located?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 261,
+                "vl": "one side only",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing weakness on only one side of your body please seek emergency medical attention.",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      }
+    ]
+  },
+  "status": "ok"
+}

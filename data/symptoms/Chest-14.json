@@ -1,0 +1,1761 @@
+{
+  "code": 1,
+  "data": {
+    "symptoms": [
+      {
+        "nm": "Bleeding",
+        "id": 244,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Bleeding from nipple",
+        "id": 396,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Broken bone (single fracture)",
+        "id": 578,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Broken bones (multiple fractures)",
+        "id": 354,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Bruising or discoloration",
+        "id": 45,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Bruising or discoloration associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 435,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Cough",
+        "id": 59,
+        "rk": 2,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Detail",
+            "id": 24,
+            "q": "Cough:",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 221,
+                "vl": "high pitched or barking",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you have a high pitched or barking cough please seek prompt medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 685,
+                "vl": "whooping noise when inhaling",
+                "mcl": "Audio",
+                "mloc": "ad-0283-hz-001.mp3",
+                "txt": "If you have a cough associated with a whooping noise when you inhale please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 323,
+                "vl": "coughing up blood or blood in sputum",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are coughing up blood please seek prompt medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 197,
+                "vl": "yellow or green sputum",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 196,
+                "vl": "white or pink sputum",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 195,
+                "vl": "no sputum (non-productive)",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 394,
+                "vl": "hacking",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Cough brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 57,
+                "vl": "or made worse by secondhand smoke",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 444,
+                "vl": "or made worse by lying down",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 211,
+                "vl": "or worse at night",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Exposure",
+            "id": 19,
+            "q": "Cough developed after exposure to",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 53,
+                "vl": "someone with a possible infectious illness",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Cough associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1476,
+                "vl": "eating undercooked crabs/crayfish",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 411,
+                "vl": "history of exposure to asbestos",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Difficulty breathing",
+        "id": 606,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Difficulty talking",
+        "id": 476,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Discharge from nipple",
+        "id": 395,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Detail",
+            "id": 24,
+            "q": "Discharge from nipple:",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 587,
+                "vl": "bloody",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Drainage or pus",
+        "id": 309,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Episodes of not breathing during sleep",
+        "id": 559,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Feeling of not being able to get enough air",
+        "id": 101,
+        "rk": 0,
+        "txt": "If you feel like you are not able to get enough air please seek emergency medical attention.",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Food getting stuck (swallowing)",
+        "id": 537,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Frequent infections",
+        "id": 307,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Heartburn",
+        "id": 117,
+        "rk": 3,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Hyperventilating (rapid/deep breathing)",
+        "id": 385,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Irregular heartbeat",
+        "id": 127,
+        "rk": 0,
+        "txt": "If you are experiencing an irregular heart beat associated with dizziness, lightheadedness, fainting, shortness of breath or chest discomfort please seek emergency medical attention.",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Irregular heartbeat brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 164,
+                "vl": "or made worse by caffeine",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing an irregular heart beat associated with dizziness, lightheadedness, fainting, shortness of breath or chest discomfort please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 165,
+                "vl": "or made worse by alcohol use",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing an irregular heart beat associated with dizziness, lightheadedness, fainting, shortness of breath or chest discomfort please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 163,
+                "vl": "or made worse by emotional stress",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing an irregular heart beat associated with dizziness, lightheadedness, fainting, shortness of breath or chest discomfort please seek emergency medical attention.",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Labored breathing",
+        "id": 270,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Lump or bulge",
+        "id": 148,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Lump or bulge brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 432,
+                "vl": "or made worse by caffeine",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Multiple bruises of different ages",
+        "id": 493,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Muscle cramps or spasms (painful)",
+        "id": 282,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "New onset asthma",
+        "id": 160,
+        "rk": 0,
+        "txt": "If you are experiencing new onset asthma please seek prompt medical attention.",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Nighttime wheezing",
+        "id": 18,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Noisy breathing",
+        "id": 161,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Numbness or tingling",
+        "id": 164,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Side",
+            "id": 11,
+            "q": "On which side of your body is your numbness or tingling located?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 839,
+                "vl": "one side only",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Pain or discomfort",
+        "id": 1,
+        "rk": 1,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Detail",
+            "id": 24,
+            "q": "Pain or discomfort:",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 153,
+                "vl": "localized to breast nipple",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Quality",
+            "id": 5,
+            "q": "How would you describe your pain or discomfort?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1,
+                "vl": "sharp or stabbing",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 16,
+                "vl": "dull or achy",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing dull or achy chest pain or discomfort please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 93,
+                "vl": "burning or stinging",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 97,
+                "vl": "pressure or heaviness",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing chest pressure or heaviness please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 13,
+                "vl": "tearing",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing tearing chest pain or discomfort please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 213,
+                "vl": "throbbing",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Radio",
+            "nm": "Severity",
+            "id": 7,
+            "q": "How severe is your pain or discomfort?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 418,
+                "vl": "mild",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 111,
+                "vl": "moderate",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 3,
+                "vl": "severe",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing severe chest pain or discomfort please seek emergency medical attention.",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Side",
+            "id": 11,
+            "q": "On which side of your body is your pain or discomfort located?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 87,
+                "vl": "left side",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing left-sided chest pain or discomfort please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 341,
+                "vl": "one side only",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 88,
+                "vl": "both sides",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Pain or discomfort brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 178,
+                "vl": "or made worse by lying down",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing chest pain or discomfort brought on or made worse by lying down please seek prompt medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 99,
+                "vl": "or made worse by exercise or physical activity",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing chest pain or discomfort brought on or made worse by exercise or physical activity please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 510,
+                "vl": "or worse at night",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 266,
+                "vl": "or made worse by walking",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing chest pain or discomfort brought on or made worse by walking please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 18,
+                "vl": "or made worse by coughing or sneezing",
+                "mcl": "Audio",
+                "mloc": "ad-0283-hz-001.mp3",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 52,
+                "vl": "or made worse by pressing on chest",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 51,
+                "vl": "or made worse by taking a deep breath",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing chest pain or discomfort brought on or made worse by taking a deep breath please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 81,
+                "vl": "or made worse by emotional stress",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing chest pain or discomfort please seek prompt medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 38,
+                "vl": "or made worse by daily activities",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 533,
+                "vl": "or made worse by scuba diving",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing chest pain or discomfort associated with SCUBA diving please seek emergency medical attention.",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Better",
+            "id": 16,
+            "q": "Pain or discomfort",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 301,
+                "vl": "better with ice",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 320,
+                "vl": "better with bending forward",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Pain or discomfort associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 15,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 14,
+                "vl": "chest injury",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Radio",
+            "nm": "Onset",
+            "id": 18,
+            "q": "Pain or discomfort onset",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 47,
+                "vl": "sudden",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing sudden chest pain or discomfort please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 48,
+                "vl": "gradual",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing gradual chest pain or discomfort please seek prompt medical attention.",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Palpitations (fluttering in chest)",
+        "id": 175,
+        "rk": 6,
+        "txt": "If you are experiencing palpitations (fluttering in chest) associated with dizziness, lightheadedness, fainting, shortness of breath or chest discomfort please seek emergency medical attention.",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Palpitations (fluttering in chest) brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 167,
+                "vl": "or made worse by caffeine",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing palpitations (fluttering in chest) associated with dizziness, lightheadedness, fainting, shortness of breath or chest discomfort please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 168,
+                "vl": "or made worse by alcohol use",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 166,
+                "vl": "or made worse by emotional stress",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing palpitations (fluttering in chest) associated with dizziness, lightheadedness, fainting, shortness of breath or chest discomfort please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 406,
+                "vl": "or made worse by lying on left side",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing palpitations (fluttering in chest) brought on or made worse by lying on your left side please seek prompt medical attention.",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Pounding heart (pulse)",
+        "id": 419,
+        "rk": 7,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Pressure or heaviness",
+        "id": 181,
+        "rk": 4,
+        "txt": "If you are experiencing chest pressure or heaviness please seek emergency medical attention.",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Pressure or heaviness brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 100,
+                "vl": "or made worse by exercise or physical activity",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing chest pressure or heaviness please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 101,
+                "vl": "or made worse by emotional stress",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing chest pressure or heaviness please seek emergency medical attention.",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Better",
+            "id": 16,
+            "q": "Pressure or heaviness",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 102,
+                "vl": "better with rest",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing chest pressure or heaviness that is relieved by rest please seek prompt medical attention.",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Radio",
+            "nm": "Onset",
+            "id": 18,
+            "q": "Pressure or heaviness onset",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 173,
+                "vl": "sudden",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing sudden chest pressure or heaviness please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 174,
+                "vl": "gradual",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing gradual chest pressure or heaviness that is not relieved by rest please seek emergency medical attention.",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Prolonged breathing pauses",
+        "id": 177,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Rapid breathing",
+        "id": 269,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Rapid heart rate (pulse)",
+        "id": 184,
+        "rk": 0,
+        "txt": "If you are experiencing a rapid heart rate associated with dizziness, lightheadedness, fainting, shortness of breath or chest discomfort please seek emergency medical attention.",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Rapid heart rate (pulse) brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 169,
+                "vl": "or made worse by emotional stress",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing a rapid heart rate associated with dizziness, lightheadedness, fainting, shortness of breath or chest discomfort please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 262,
+                "vl": "or made worse by exercise or physical activity",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing a rapid heart rate associated with dizziness, lightheadedness, fainting, shortness of breath or chest discomfort please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 170,
+                "vl": "or made worse by caffeine",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 171,
+                "vl": "or made worse by alcohol use",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Shortness of breath",
+        "id": 204,
+        "rk": 5,
+        "txt": "If you are experiencing shortness of breath please seek prompt medical attention.",
+        "qclss": [
+          {
+            "ty": "Radio",
+            "nm": "Severity",
+            "id": 7,
+            "q": "How severe is your shortness of breath?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1021,
+                "vl": "mild",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 1020,
+                "vl": "moderate",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 32,
+                "vl": "severe",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing severe shortness of breath please seek prompt medical attention.",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Shortness of breath brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 106,
+                "vl": "or made worse by smoking",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 1470,
+                "vl": "or made worse by upper respiratory infection",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 400,
+                "vl": "or made worse by high altitudes",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing shortness of breath associated with high altitudes please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 194,
+                "vl": "or made worse by daily activities",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing shortness of breath brought on or made worse by daily activities please seek prompt medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 125,
+                "vl": "or made worse by eating certain foods",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing shortness of breath brought on or made worse by eating certain foods please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 107,
+                "vl": "or made worse by lying down",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing shortness of breath brought on or made worse by lying down please seek prompt medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 38,
+                "vl": "or made worse by daily activities",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing shortness of breath brought on or made worse by daily activities please seek prompt medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 37,
+                "vl": "or made worse by exercise or physical activity",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing shortness of breath brought on or made worse by exercise or physicial activity please seek prompt medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 36,
+                "vl": "or made worse by emotional stress",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing shortness of breath brought on or made worse by emotional stress please seek prompt medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 537,
+                "vl": "or made worse by scuba diving",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing shortness of breath associated with SCUBA diving please seek emergency medical attention.",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Better",
+            "id": 16,
+            "q": "Shortness of breath",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 443,
+                "vl": "better sitting upright",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 60,
+                "vl": "better with rest",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Exposure",
+            "id": 19,
+            "q": "Shortness of breath developed after exposure to",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 56,
+                "vl": "someone with a possible infectious illness",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing shortness of breath following contact with someone with a possible infectious illness please seek prompt medical attention.",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Shortness of breath associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1458,
+                "vl": "prolonged plane ride",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 1459,
+                "vl": "prolonged bed rest",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 628,
+                "vl": "weeverfish sting",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing shortness of breath associated with weeverfish sting please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 577,
+                "vl": "following snail sting",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing shortness of breath associated with snail sting please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 426,
+                "vl": "eating pufferfish",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing shortness of breath associated with eating pufferfish please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 423,
+                "vl": "encounter with an octopus in the south Pacific",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing shortness of breath associated with an octopus bite please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 325,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 324,
+                "vl": "upper respiratory illness",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 410,
+                "vl": "history of exposure to asbestos",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 461,
+                "vl": "chicken pox (varicella)",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Radio",
+            "nm": "Onset",
+            "id": 18,
+            "q": "Shortness of breath onset",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 49,
+                "vl": "sudden",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 50,
+                "vl": "gradual",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Slow heart rate (pulse)",
+        "id": 212,
+        "rk": 0,
+        "txt": "If you are experiencing a slow heart rate (pulse) that is associated with lightheadedness, dizziness or fainting please seek emergency medical attention.",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Slow or irregular breathing",
+        "id": 213,
+        "rk": 0,
+        "txt": "If you are experiencing episodes of slow or irregular breathing please seek prompt medical attention.",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Slow or irregular breathing brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 7,
+                "vl": "or made worse by alcohol use",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Stiffness or decreased movement",
+        "id": 11,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Swelling",
+        "id": 5,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Swelling brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 429,
+                "vl": "or made worse by caffeine",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Better",
+            "id": 16,
+            "q": "Swelling",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 331,
+                "vl": "better with ice",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Tenderness to touch",
+        "id": 266,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Tenderness to touch brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 431,
+                "vl": "or made worse by caffeine",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Tenderness to touch associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 434,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Tightness",
+        "id": 236,
+        "rk": 0,
+        "txt": "If you are experiencing chest tightness, please seek emergency medical attention.",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Quality",
+            "id": 5,
+            "q": "How would you describe your tightness?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 287,
+                "vl": "dull or achy",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Tightness brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 837,
+                "vl": "or made worse by exposure to allergen or irritants",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 836,
+                "vl": "or made worse by exercise or physical activity",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 833,
+                "vl": "or made worse by emotional stress",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 838,
+                "vl": "or worse at night",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 832,
+                "vl": "or made worse by coughing or sneezing",
+                "mcl": "Audio",
+                "mloc": "ad-0283-hz-001.mp3",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 831,
+                "vl": "or made worse by aspirin use",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 830,
+                "vl": "or made worse by smoking",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 835,
+                "vl": "or made worse by upper respiratory infection",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 834,
+                "vl": "or made worse by cold temperature",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Visible deformity",
+        "id": 248,
+        "rk": 0,
+        "txt": "If you are experiencing a new physical chest deformity please seek prompt medical attention.",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Side",
+            "id": 11,
+            "q": "On which side of your body is your visible deformity located?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1148,
+                "vl": "one side only",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 344,
+                "vl": "both sides",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Visible deformity associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1457,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Warm to touch",
+        "id": 252,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Wheezing",
+        "id": 258,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Wheezing brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 29,
+                "vl": "or made worse by upper respiratory infection",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing wheezing brought on or made worse by exercise or physicial activity please seek prompt medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 22,
+                "vl": "or made worse by exposure to allergen or irritants",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 110,
+                "vl": "or made worse by lying down",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 127,
+                "vl": "or made worse by eating certain foods",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing wheezing brought on or made worse by eating certain foods please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 109,
+                "vl": "or made worse by daily activities",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 108,
+                "vl": "or made worse by exercise or physical activity",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing wheezing brought on or made worse by exercise or physical activity please seek prompt medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 27,
+                "vl": "or made worse by emotional stress",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 26,
+                "vl": "or worse with non-steroidal anti-inflammatory use",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 25,
+                "vl": "or made worse by aspirin use",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing wheezing that is brought on or made worse by aspirin use please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 23,
+                "vl": "or made worse by smoking",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 24,
+                "vl": "or made worse by secondhand smoke",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 28,
+                "vl": "or made worse by cold air",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Wheezing associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1515,
+                "vl": "occurs with flushing",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      }
+    ]
+  },
+  "status": "ok"
+}

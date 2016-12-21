@@ -1,0 +1,771 @@
+{
+  "code": 1,
+  "data": {
+    "symptoms": [
+      {
+        "nm": "Bleeding",
+        "id": 244,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Blood or red colored urine",
+        "id": 27,
+        "rk": 5,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Bruising or discoloration",
+        "id": 45,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Bruising or discoloration associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 435,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Cloudy urine with strong odor",
+        "id": 52,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Curved or bent penis during erection",
+        "id": 62,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Dark colored (brown) urine",
+        "id": 364,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Decreased urination",
+        "id": 69,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Difficulty starting urine stream",
+        "id": 74,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Difficulty urinating",
+        "id": 76,
+        "rk": 3,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Discharge from penis",
+        "id": 49,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Discharge from penis brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 73,
+                "vl": "or made worse by unprotected sexual contact",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Drainage or pus",
+        "id": 309,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "SkinLocations",
+            "id": 28,
+            "q": "Where are you experiencing drainage or pus?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1089,
+                "vl": "Genitals",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Erectile dysfunction",
+        "id": 584,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Frequent nighttime urination",
+        "id": 339,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Frequent urge to urinate",
+        "id": 110,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Frequent urination",
+        "id": 107,
+        "rk": 2,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Itching or burning",
+        "id": 129,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Lump or bulge",
+        "id": 148,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Detail",
+            "id": 24,
+            "q": "Lump or bulge:",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 477,
+                "vl": "localized to testicle or scrotum",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Lump or bulge associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 482,
+                "vl": "mumps",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Multiple bruises of different ages",
+        "id": 493,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Numbness or tingling",
+        "id": 164,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Pain during erection",
+        "id": 165,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Pain or discomfort",
+        "id": 1,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Detail",
+            "id": 24,
+            "q": "Pain or discomfort:",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 455,
+                "vl": "localized to testicle or scrotum",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Quality",
+            "id": 5,
+            "q": "How would you describe your pain or discomfort?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 93,
+                "vl": "burning or stinging",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 210,
+                "vl": "pressure or fullness",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Radio",
+            "nm": "Severity",
+            "id": 7,
+            "q": "How severe is your pain or discomfort?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 418,
+                "vl": "mild",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 111,
+                "vl": "moderate",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 3,
+                "vl": "severe",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Pain or discomfort brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 79,
+                "vl": "or made worse by sexual intercourse",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 75,
+                "vl": "or made worse by prolonged sitting",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 43,
+                "vl": "or made worse by urination",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 318,
+                "vl": "or made worse by unprotected sexual contact",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 334,
+                "vl": "or made worse by bowel movement",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 266,
+                "vl": "or made worse by walking",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 81,
+                "vl": "or made worse by emotional stress",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Pain or discomfort associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 479,
+                "vl": "mumps",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Pain with sexual intercourse (male)",
+        "id": 569,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Pain with urination",
+        "id": 169,
+        "rk": 1,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Quality",
+            "id": 5,
+            "q": "How would you describe your pain with urination?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 201,
+                "vl": "burning or stinging",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Painful ejaculation",
+        "id": 172,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Premature ejaculation",
+        "id": 180,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Pressure or fullness",
+        "id": 268,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Slow or weak urine stream",
+        "id": 214,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Sudden urge to urinate",
+        "id": 600,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Swelling",
+        "id": 5,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Detail",
+            "id": 24,
+            "q": "Swelling:",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 457,
+                "vl": "localized to testicle or scrotum",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Better",
+            "id": 16,
+            "q": "Swelling",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 331,
+                "vl": "better with ice",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Swelling associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 481,
+                "vl": "mumps",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Tenderness to touch",
+        "id": 266,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Detail",
+            "id": 24,
+            "q": "Tenderness to touch:",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 478,
+                "vl": "localized to testicle or scrotum",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Tenderness to touch associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 434,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 480,
+                "vl": "mumps",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Testicles shrinkage",
+        "id": 568,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Testicular pain",
+        "id": 272,
+        "rk": 7,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Quality",
+            "id": 5,
+            "q": "How would you describe your testicular pain?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1435,
+                "vl": "pressure or fullness",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Unable to obtain or maintain erection",
+        "id": 243,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Urine leaking (incontinence)",
+        "id": 147,
+        "rk": 5,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Urine leaking (incontinence) brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 632,
+                "vl": "or made worse by exercise or physical activity",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 631,
+                "vl": "or made worse by standing",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 517,
+                "vl": "or made worse by coughing or sneezing",
+                "mcl": "Audio",
+                "mloc": "ad-0283-hz-001.mp3",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Vaginal odor",
+        "id": 410,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Visible bugs or parasites",
+        "id": 522,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Warm to touch",
+        "id": 252,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      }
+    ]
+  },
+  "status": "ok"
+}

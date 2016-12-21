@@ -1,0 +1,1087 @@
+{
+  "code": 1,
+  "data": {
+    "symptoms": [
+      {
+        "nm": "Bad breath",
+        "id": 16,
+        "rk": 3,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Bad taste in mouth",
+        "id": 438,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Belching",
+        "id": 19,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Bitter almond odor on breath",
+        "id": 401,
+        "rk": 0,
+        "txt": "If you have a bitter almond breath odor please seek emergency medical attention.",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Bleeding",
+        "id": 244,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Bleeding gums",
+        "id": 21,
+        "rk": 1,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Bruising or discoloration",
+        "id": 45,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Bruising or discoloration associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 435,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Choking",
+        "id": 589,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Coated or furry tongue",
+        "id": 437,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Colored sputum",
+        "id": 283,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Cough",
+        "id": 59,
+        "rk": 6,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Detail",
+            "id": 24,
+            "q": "Cough:",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 394,
+                "vl": "hacking",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 195,
+                "vl": "no sputum (non-productive)",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 197,
+                "vl": "yellow or green sputum",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 323,
+                "vl": "coughing up blood or blood in sputum",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Cough brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 211,
+                "vl": "or worse at night",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Exposure",
+            "id": 19,
+            "q": "Cough developed after exposure to",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 53,
+                "vl": "someone with a possible infectious illness",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Cracks at corner of mouth",
+        "id": 321,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Damaged teeth enamel",
+        "id": 453,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Decreased appetite",
+        "id": 63,
+        "rk": 5,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Decreased taste",
+        "id": 68,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Difficulty opening mouth",
+        "id": 464,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Difficulty swallowing",
+        "id": 227,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Difficulty talking",
+        "id": 476,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Drainage or pus",
+        "id": 309,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Drinking excessive fluids",
+        "id": 306,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Drooling",
+        "id": 83,
+        "rk": 0,
+        "txt": "If you are drooling because you are unable to swallow please seek emergency medical attention.",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Dry mouth",
+        "id": 85,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Episodes of not breathing during sleep",
+        "id": 559,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Excessive mouth watering",
+        "id": 345,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Frequent chewing",
+        "id": 418,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Fruity odor on breath",
+        "id": 308,
+        "rk": 0,
+        "txt": "If you are experiencing a fruity odor on your breath please seek emergency medical attention.",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Gagging",
+        "id": 590,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Grinding teeth",
+        "id": 449,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Grooved tongue",
+        "id": 586,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Gum sores",
+        "id": 296,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Hoarse voice",
+        "id": 120,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Increased speech volume",
+        "id": 555,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Increased talkativeness",
+        "id": 399,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Increased thirst",
+        "id": 124,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Involuntary movements (picking, lip smacking etc.)",
+        "id": 570,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Itching or burning",
+        "id": 129,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Jaw locking",
+        "id": 356,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Loss of voice",
+        "id": 145,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Lump or bulge",
+        "id": 148,
+        "rk": 4,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "History",
+            "id": 20,
+            "q": "Lump or bulge along with",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 386,
+                "vl": "long-term alcohol use",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 387,
+                "vl": "long-term smoking",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Metallic taste in mouth",
+        "id": 459,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Mouth sores",
+        "id": 280,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "History",
+            "id": 20,
+            "q": "Mouth sores along with",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 385,
+                "vl": "long-term smoking",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 384,
+                "vl": "long-term alcohol use",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Mouth sores brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 667,
+                "vl": "or made worse by swallowing irritating chemicals or poison",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you ate or drank caustic (lye-like) material please seek prompt medical attention",
+                "ovrids": null
+              },
+              {
+                "id": 668,
+                "vl": "or made worse by ingesting hot food or drink",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Muffled voice",
+        "id": 150,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Multiple bruises of different ages",
+        "id": 493,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Noisy breathing",
+        "id": 161,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Numbness or tingling",
+        "id": 164,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Numbness or tingling associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 426,
+                "vl": "eating pufferfish",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 627,
+                "vl": "weeverfish sting",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Pain or discomfort",
+        "id": 1,
+        "rk": 2,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Quality",
+            "id": 5,
+            "q": "How would you describe your pain or discomfort?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 93,
+                "vl": "burning or stinging",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Radio",
+            "nm": "Severity",
+            "id": 7,
+            "q": "How severe is your pain or discomfort?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 418,
+                "vl": "mild",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 111,
+                "vl": "moderate",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 3,
+                "vl": "severe",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Pain or discomfort brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 369,
+                "vl": "or made worse by chewing",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 669,
+                "vl": "or made worse by swallowing irritating chemicals or poison",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you ate or drank caustic (lye-like) material please seek prompt medical attention",
+                "ovrids": null
+              },
+              {
+                "id": 670,
+                "vl": "or made worse by ingesting hot food or drink",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Rapid speech",
+        "id": 398,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Red (strawberry) tongue",
+        "id": 324,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Red gums",
+        "id": 446,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Red spots",
+        "id": 271,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Regurgitation of food or liquid",
+        "id": 190,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Shortness of breath",
+        "id": 204,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Slurred speech",
+        "id": 215,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Smooth tongue",
+        "id": 539,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Snoring",
+        "id": 217,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Sore tongue",
+        "id": 540,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Soreness or burning inside of mouth",
+        "id": 365,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Spots on throat",
+        "id": 343,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Detail",
+            "id": 24,
+            "q": "Spots on throat:",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 359,
+                "vl": "white or yellow",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Spots on tonsils",
+        "id": 344,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Detail",
+            "id": 24,
+            "q": "Spots on tonsils:",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 360,
+                "vl": "white or yellow",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Strange smell or taste",
+        "id": 574,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Swelling",
+        "id": 5,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Swelling brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 123,
+                "vl": "or made worse by eating certain foods",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Better",
+            "id": 16,
+            "q": "Swelling",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 331,
+                "vl": "better with ice",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Swollen gums",
+        "id": 447,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Swollen lips",
+        "id": 326,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Swollen tongue",
+        "id": 458,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Swollen tonsils",
+        "id": 188,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Taste of acid in mouth",
+        "id": 191,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Taste words when they are heard",
+        "id": 576,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Teeth do not fit like they used to",
+        "id": 579,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Tenderness to touch",
+        "id": 266,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Tenderness to touch associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 434,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Thick saliva or mucus",
+        "id": 233,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Unable to open mouth (jaw)",
+        "id": 409,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Uncontrollable verbal outbursts",
+        "id": 583,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Unusual taste in mouth",
+        "id": 245,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Upset stomach",
+        "id": 335,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Warm to touch",
+        "id": 252,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "White patches inside mouth",
+        "id": 425,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "White patches on tongue",
+        "id": 426,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      }
+    ]
+  },
+  "status": "ok"
+}

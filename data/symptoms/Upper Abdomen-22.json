@@ -1,0 +1,927 @@
+{
+  "code": 1,
+  "data": {
+    "symptoms": [
+      {
+        "nm": "Bleeding",
+        "id": 244,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Bloating or fullness",
+        "id": 23,
+        "rk": 4,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Bloating or fullness brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 147,
+                "vl": "or made worse by eating certain foods",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Bloody or red colored vomit",
+        "id": 36,
+        "rk": 0,
+        "txt": "If you are experiencing bloody or red colored vomit please seek emergency medical attention.",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Bloody or red colored vomit brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 845,
+                "vl": "or made worse by vomiting or wretching",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Bruising or discoloration",
+        "id": 45,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Bruising or discoloration associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 435,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Bulging veins",
+        "id": 47,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Change in bowel habits",
+        "id": 274,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Coffee grounds colored vomit",
+        "id": 408,
+        "rk": 0,
+        "txt": "If you are vomiting blood or coffee ground colored material please seek prompt medical attention.",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Coffee grounds colored vomit brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 845,
+                "vl": "or made worse by vomiting or wretching",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Constipation",
+        "id": 58,
+        "rk": 5,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Constipation associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 658,
+                "vl": "following recent surgery",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Distended stomach",
+        "id": 378,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Drainage or pus",
+        "id": 309,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Intentional vomiting (purging)",
+        "id": 311,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Lump or bulge",
+        "id": 148,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Multiple bruises of different ages",
+        "id": 493,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Muscle cramps or spasms (painful)",
+        "id": 282,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Muscle cramps or spasms (painful) associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1514,
+                "vl": "caused by diarrhea",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Nausea or vomiting",
+        "id": 156,
+        "rk": 2,
+        "txt": "If you are experiencing nausea or vomiting that lasts more than 48-72 hours please seek prompt medical attention.",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Nausea or vomiting brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 143,
+                "vl": "or worse after meals",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 621,
+                "vl": "or made worse by iron supplements",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 586,
+                "vl": "or worse early morning",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 358,
+                "vl": "or made worse by eating contaminated food",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 135,
+                "vl": "or made worse by eating certain foods",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 5,
+                "vl": "or made worse by alcohol use",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Nausea or vomiting associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1480,
+                "vl": "travel on a cruise ship",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 397,
+                "vl": "recent excessive acetaminophen (Tylenol) use",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing nausea or vomiting following excessive acetaminophen (Tylenol) use please seek emergency medical attention.",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Numbness or tingling",
+        "id": 164,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Pain or discomfort",
+        "id": 1,
+        "rk": 1,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Detail",
+            "id": 24,
+            "q": "Pain or discomfort:",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 61,
+                "vl": "wakes you up at night",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Quality",
+            "id": 5,
+            "q": "How would you describe your pain or discomfort?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1,
+                "vl": "sharp or stabbing",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 16,
+                "vl": "dull or achy",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 93,
+                "vl": "burning or stinging",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 122,
+                "vl": "crampy",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 210,
+                "vl": "pressure or fullness",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 13,
+                "vl": "tearing",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing tearing abdominal pain please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 213,
+                "vl": "throbbing",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing throbbing abdominal pain please seek prompt medical attention.",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Radio",
+            "nm": "Severity",
+            "id": 7,
+            "q": "How severe is your pain or discomfort?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 418,
+                "vl": "mild",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 111,
+                "vl": "moderate",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 3,
+                "vl": "severe",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing severe abdominal pain please seek prompt medical attention.",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Side",
+            "id": 11,
+            "q": "On which side of your body is your pain or discomfort located?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 87,
+                "vl": "left side",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 17,
+                "vl": "right side",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 88,
+                "vl": "both sides",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Pain or discomfort brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 334,
+                "vl": "or made worse by bowel movement",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 316,
+                "vl": "or made worse by eating fatty foods",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 510,
+                "vl": "or worse at night",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 203,
+                "vl": "or made worse by eating milk products",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 184,
+                "vl": "or worse on empty stomach",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 669,
+                "vl": "or made worse by swallowing irritating chemicals or poison",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 149,
+                "vl": "or made worse by alcohol use",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 142,
+                "vl": "or worse after meals",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 18,
+                "vl": "or made worse by coughing or sneezing",
+                "mcl": "Audio",
+                "mloc": "ad-0283-hz-001.mp3",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 99,
+                "vl": "or made worse by exercise or physical activity",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 137,
+                "vl": "or made worse by eating certain foods",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 81,
+                "vl": "or made worse by emotional stress",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 79,
+                "vl": "or made worse by sexual intercourse",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 21,
+                "vl": "or made worse with sudden movement",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Better",
+            "id": 16,
+            "q": "Pain or discomfort",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 319,
+                "vl": "better after eating or drinking",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 20,
+                "vl": "better with changing position",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 301,
+                "vl": "better with ice",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 180,
+                "vl": "better with antacids",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Exposure",
+            "id": 19,
+            "q": "Pain or discomfort developed after exposure to",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 11,
+                "vl": "taking antibiotics",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Pain or discomfort associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 576,
+                "vl": "eating contaminated fish",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 657,
+                "vl": "following recent surgery",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 573,
+                "vl": "recent travel outside of continental United States",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 572,
+                "vl": "eating undercooked fish",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Radio",
+            "nm": "Onset",
+            "id": 18,
+            "q": "Pain or discomfort onset",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 47,
+                "vl": "sudden",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 48,
+                "vl": "gradual",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Painful bowel movements",
+        "id": 171,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Painful bowel movements associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 659,
+                "vl": "following recent surgery",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Pressure or fullness",
+        "id": 268,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Pulsating sensation",
+        "id": 372,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Stomach cramps",
+        "id": 585,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Swelling",
+        "id": 5,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Better",
+            "id": 16,
+            "q": "Swelling",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 331,
+                "vl": "better with ice",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Tenderness to touch",
+        "id": 266,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Side",
+            "id": 11,
+            "q": "On which side of your body is your tenderness to touch located?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1472,
+                "vl": "left side",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 1471,
+                "vl": "right side",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Tenderness to touch associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 434,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Upset stomach",
+        "id": 335,
+        "rk": 3,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Visible deformity",
+        "id": 248,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Warm to touch",
+        "id": 252,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      }
+    ]
+  },
+  "status": "ok"
+}

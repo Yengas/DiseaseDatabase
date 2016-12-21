@@ -1,0 +1,1043 @@
+{
+  "code": 1,
+  "data": {
+    "symptoms": [
+      {
+        "nm": "Bleeding",
+        "id": 244,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Bruising or discoloration",
+        "id": 45,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Bruising or discoloration associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 435,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Choking",
+        "id": 589,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Choking on food",
+        "id": 531,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Cough",
+        "id": 59,
+        "rk": 2,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Detail",
+            "id": 24,
+            "q": "Cough:",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 221,
+                "vl": "high pitched or barking",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you have a high pitched or barking cough please seek prompt medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 685,
+                "vl": "whooping noise when inhaling",
+                "mcl": "Audio",
+                "mloc": "ad-0283-hz-001.mp3",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 394,
+                "vl": "hacking",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 197,
+                "vl": "yellow or green sputum",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 196,
+                "vl": "white or pink sputum",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 195,
+                "vl": "no sputum (non-productive)",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 323,
+                "vl": "coughing up blood or blood in sputum",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are coughing up blood or blood in sputum please seek prompt medical attention.",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Cough brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 57,
+                "vl": "or made worse by secondhand smoke",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 444,
+                "vl": "or made worse by lying down",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 211,
+                "vl": "or worse at night",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Exposure",
+            "id": 19,
+            "q": "Cough developed after exposure to",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 53,
+                "vl": "someone with a possible infectious illness",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Cough associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1476,
+                "vl": "eating undercooked crabs/crayfish",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 411,
+                "vl": "history of exposure to asbestos",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Difficulty swallowing",
+        "id": 227,
+        "rk": 3,
+        "txt": "If you are experiencing difficulty swallowing please seek prompt medical attention.",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "History",
+            "id": 20,
+            "q": "Difficulty swallowing along with",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 648,
+                "vl": "long-term smoking",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 649,
+                "vl": "long-term alcohol use",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Difficulty swallowing brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 671,
+                "vl": "or made worse by swallowing irritating chemicals or poison",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you ate or drank caustic (lye-like) material and you are having difficulty swallowing please seek prompt medical attention",
+                "ovrids": null
+              },
+              {
+                "id": 672,
+                "vl": "or made worse by ingesting hot food or drink",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Difficulty talking",
+        "id": 476,
+        "rk": 6,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Drainage or pus",
+        "id": 309,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Enlarged or swollen glands",
+        "id": 92,
+        "rk": 4,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Enlarged or swollen glands associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 492,
+                "vl": "a cat scratch, lick or bite",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Food getting stuck (swallowing)",
+        "id": 537,
+        "rk": 0,
+        "txt": "If you are experiencing food getting stuck when you swallow please seek prompt medical attention.",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Gagging",
+        "id": 590,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Hoarse voice",
+        "id": 120,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Involuntary head turning or twisting",
+        "id": 357,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Itching or burning",
+        "id": 129,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Loss of voice",
+        "id": 145,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Lump or bulge",
+        "id": 148,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "History",
+            "id": 20,
+            "q": "Lump or bulge along with",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 387,
+                "vl": "long-term smoking",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 386,
+                "vl": "long-term alcohol use",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Muffled voice",
+        "id": 150,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Multiple bruises of different ages",
+        "id": 493,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Muscle cramps or spasms (painful)",
+        "id": 282,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Muscle twitching (painless)",
+        "id": 340,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Noisy breathing",
+        "id": 161,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Numbness or tingling",
+        "id": 164,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Numbness or tingling associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 496,
+                "vl": "animal bite",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Pain or discomfort",
+        "id": 1,
+        "rk": 0,
+        "txt": "If you are experiencing pain in your neck please seek emergency medical attention.",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Quality",
+            "id": 5,
+            "q": "How would you describe your pain or discomfort?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 93,
+                "vl": "burning or stinging",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing pain in your neck please seek emergency medical attention.",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Radio",
+            "nm": "Severity",
+            "id": 7,
+            "q": "How severe is your pain or discomfort?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 418,
+                "vl": "mild",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 111,
+                "vl": "moderate",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 3,
+                "vl": "severe",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing pain in your neck please seek emergency medical attention.",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Side",
+            "id": 11,
+            "q": "On which side of your body is your pain or discomfort located?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 341,
+                "vl": "one side only",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing pain in your neck please seek emergency medical attention.",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Better",
+            "id": 16,
+            "q": "Pain or discomfort",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 301,
+                "vl": "better with ice",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing pain in your neck please seek emergency medical attention.",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Pain or discomfort associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 15,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing pain in your neck please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 493,
+                "vl": "a cat scratch, lick or bite",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Radio",
+            "nm": "Onset",
+            "id": 18,
+            "q": "Pain or discomfort onset",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 47,
+                "vl": "sudden",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing pain in your neck please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 48,
+                "vl": "gradual",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you are experiencing pain in your neck please seek emergency medical attention.",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Post nasal drip",
+        "id": 556,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Short, wide neck",
+        "id": 487,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Sore throat",
+        "id": 219,
+        "rk": 1,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Quality",
+            "id": 5,
+            "q": "How would you describe your sore throat?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1491,
+                "vl": "burning or stinging",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Radio",
+            "nm": "Severity",
+            "id": 7,
+            "q": "How severe is your sore throat?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1488,
+                "vl": "mild",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 1489,
+                "vl": "moderate",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 1490,
+                "vl": "severe",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Side",
+            "id": 11,
+            "q": "On which side of your body is your sore throat located?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 530,
+                "vl": "one side only",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "History",
+            "id": 20,
+            "q": "Sore throat along with",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 389,
+                "vl": "long-term smoking",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 388,
+                "vl": "long-term alcohol use",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Sore throat brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 675,
+                "vl": "or made worse by swallowing irritating chemicals or poison",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you ate or drank caustic (lye-like) material please seek prompt medical attention",
+                "ovrids": null
+              },
+              {
+                "id": 676,
+                "vl": "or made worse by ingesting hot food or drink",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Exposure",
+            "id": 19,
+            "q": "Sore throat developed after exposure to",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 55,
+                "vl": "someone with a possible infectious illness",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Spots on throat",
+        "id": 343,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Spots on tonsils",
+        "id": 344,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Detail",
+            "id": 24,
+            "q": "Spots on tonsils:",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 360,
+                "vl": "white or yellow",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Stiff neck",
+        "id": 157,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Swelling",
+        "id": 5,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Side",
+            "id": 11,
+            "q": "On which side of your body is your swelling located?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 343,
+                "vl": "one side only",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Better",
+            "id": 16,
+            "q": "Swelling",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 331,
+                "vl": "better with ice",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Swollen tonsils",
+        "id": 188,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Detail",
+            "id": 24,
+            "q": "Swollen tonsils:",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 629,
+                "vl": "white spots",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 630,
+                "vl": "red",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Tender glands",
+        "id": 232,
+        "rk": 5,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Tenderness to touch",
+        "id": 266,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Tenderness to touch associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 434,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Throat tightness",
+        "id": 235,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Throat tightness brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1485,
+                "vl": "or made worse by emotional stress",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 1486,
+                "vl": "or made worse by eating certain foods",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Tilts head to look at something",
+        "id": 329,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Visible deformity",
+        "id": 248,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Visible pulsations",
+        "id": 375,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Warm to touch",
+        "id": 252,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      }
+    ]
+  },
+  "status": "ok"
+}

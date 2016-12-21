@@ -1,0 +1,2141 @@
+{
+  "code": 1,
+  "data": {
+    "symptoms": [
+      {
+        "nm": "Agitation",
+        "id": 10,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Radio",
+            "nm": "Severity",
+            "id": 7,
+            "q": "How severe is your agitation?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 825,
+                "vl": "mild",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 826,
+                "vl": "moderate",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 497,
+                "vl": "severe",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Anxiety",
+        "id": 17,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Anxiety brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 404,
+                "vl": "or made worse by emotional stress",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 405,
+                "vl": "or made worse by caffeine",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Apathy",
+        "id": 506,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Bald spots (hair)",
+        "id": 362,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "SkinLocations",
+            "id": 28,
+            "q": "Where are you experiencing bald spots (hair)?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 856,
+                "vl": "Scalp",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Image",
+            "id": 30,
+            "q": "Bald spots (hair) looks like",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1499,
+                "vl": "Trichotillomania",
+                "mcl": "Image",
+                "mloc": "79x79_trichotillomania_1.jpg",
+                "txt": "",
+                "ovrids": [
+                  24,
+                  29
+                ]
+              },
+              {
+                "id": 1498,
+                "vl": "Telogen effluvium",
+                "mcl": "Image",
+                "mloc": "79x79_telogen_effluvium_5.jpg",
+                "txt": "",
+                "ovrids": [
+                  24,
+                  29
+                ]
+              },
+              {
+                "id": 1496,
+                "vl": "Male Pattern Baldness",
+                "mcl": "Image",
+                "mloc": "79x79_androgenic_alopecia_men_2.jpg",
+                "txt": "",
+                "ovrids": [
+                  24,
+                  29
+                ]
+              },
+              {
+                "id": 1497,
+                "vl": "Alopecia",
+                "mcl": "Image",
+                "mloc": "79x79_alopecia_areata_14.jpg",
+                "txt": "",
+                "ovrids": [
+                  24,
+                  29
+                ]
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Detail",
+            "id": 24,
+            "q": "Bald spots (hair):",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1505,
+                "vl": "receding hairline",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Blackouts (memory time loss)",
+        "id": 473,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Bleeding",
+        "id": 244,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Brittle hair",
+        "id": 363,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Broken bone (single fracture)",
+        "id": 578,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Broken bones (multiple fractures)",
+        "id": 354,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Bruising or discoloration",
+        "id": 45,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Bruising or discoloration associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 435,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Coma",
+        "id": 477,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Compulsive behavior",
+        "id": 420,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Confusion",
+        "id": 57,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Confusion brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 251,
+                "vl": "or made worse by dehydration (fluid loss)",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 6,
+                "vl": "or made worse by alcohol use",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 249,
+                "vl": "or made worse by heat",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you experienced confusion brought on or made worse by heat please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 250,
+                "vl": "or made worse by exercise or physical activity",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 398,
+                "vl": "or made worse by high altitudes",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 538,
+                "vl": "or made worse by scuba diving",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you experienced confusion associated with SCUBA diving please seek emergency medical attention.",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Better",
+            "id": 16,
+            "q": "Confusion",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 252,
+                "vl": "better with drinking fluids",
+                "mcl": "Image",
+                "mloc": "skin_beauty_10.jpg",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 253,
+                "vl": "better with rest",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Confusion associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 662,
+                "vl": "HIV illness",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Craving alcohol",
+        "id": 470,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Craving to eat ice, dirt or paper",
+        "id": 320,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Crawling sensation",
+        "id": 611,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Delusions",
+        "id": 421,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Depressed mood",
+        "id": 70,
+        "rk": 4,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Difficult to wake from sleep",
+        "id": 524,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Difficulty concentrating",
+        "id": 281,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Difficulty concentrating brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 843,
+                "vl": "or made worse by scuba diving",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Difficulty concentrating associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1005,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Difficulty falling asleep",
+        "id": 431,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Difficulty falling asleep brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 499,
+                "vl": "or made worse by irregular sleep habits/schedule",
+                "mcl": "Video",
+                "mloc": "Loreal-HC-Skin-Sleep_",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Difficulty finding words",
+        "id": 505,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Difficulty learning new things",
+        "id": 502,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Difficulty sleeping",
+        "id": 79,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Difficulty sleeping brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 501,
+                "vl": "or made worse by emotional stress",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 498,
+                "vl": "or made worse by irregular sleep habits/schedule",
+                "mcl": "Video",
+                "mloc": "Loreal-HC-Skin-Sleep_",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 500,
+                "vl": "or made worse by alcohol use",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Difficulty solving problems",
+        "id": 510,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Difficulty staying asleep",
+        "id": 432,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Difficulty staying awake during day",
+        "id": 434,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Disorientation",
+        "id": 316,
+        "rk": 0,
+        "txt": "If you are experiencing disorientation please seek prompt medical attention.",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Disorientation brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 841,
+                "vl": "or made worse by high altitudes",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Dizziness",
+        "id": 81,
+        "rk": 3,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Dizziness brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 219,
+                "vl": "or made worse by sitting up",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 220,
+                "vl": "or made worse by changing head position",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 239,
+                "vl": "or made worse by heat",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 240,
+                "vl": "or made worse by exercise or physical activity",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 241,
+                "vl": "or made worse by dehydration (fluid loss)",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you experienced dizziness brought on or made worse by dehydration (fluid loss) please seek prompt medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 402,
+                "vl": "or made worse by standing",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 218,
+                "vl": "or made worse by lying down",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Better",
+            "id": 16,
+            "q": "Dizziness",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 242,
+                "vl": "better with drinking fluids",
+                "mcl": "Image",
+                "mloc": "skin_beauty_10.jpg",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 243,
+                "vl": "better with rest",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Drainage or pus",
+        "id": 309,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Drowsiness",
+        "id": 360,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Drowsiness associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 623,
+                "vl": "Tsetse fly bite",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Early morning waking",
+        "id": 433,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Easily distracted",
+        "id": 263,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Emotional detachment",
+        "id": 440,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Fainting",
+        "id": 261,
+        "rk": 6,
+        "txt": "If you experienced fainting (loss of consciousness) please seek prompt medical attention.",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Fatigue",
+        "id": 98,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Fear of air",
+        "id": 430,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Fear of gaining weight",
+        "id": 387,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Fear of water",
+        "id": 429,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Feeling of being detached from reality",
+        "id": 371,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Feeling smothered",
+        "id": 370,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Feeling something moving on scalp",
+        "id": 612,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Fever",
+        "id": 102,
+        "rk": 2,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Detail",
+            "id": 24,
+            "q": "Fever:",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 420,
+                "vl": "99.0 F - 100.9 F (mild)",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 421,
+                "vl": "101 F - 103.5 F (moderate)",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 419,
+                "vl": "over 103.5 F (high)",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Fever brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 244,
+                "vl": "or made worse by heat",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 245,
+                "vl": "or made worse by exercise or physical activity",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 246,
+                "vl": "or made worse by dehydration (fluid loss)",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 409,
+                "vl": "or made worse by intravenous drug use",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Better",
+            "id": 16,
+            "q": "Fever",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 247,
+                "vl": "better with drinking fluids",
+                "mcl": "Image",
+                "mloc": "skin_beauty_10.jpg",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 248,
+                "vl": "better with rest",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Exposure",
+            "id": 19,
+            "q": "Fever developed after exposure to",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 54,
+                "vl": "someone with a possible infectious illness",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Fever associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 348,
+                "vl": "history of recent sore throat",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 408,
+                "vl": "recent dental procedure",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 445,
+                "vl": "recent travel outside of continental United States",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Fits of rage",
+        "id": 475,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Flashbacks",
+        "id": 442,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Food cravings",
+        "id": 435,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Forgetfulness",
+        "id": 504,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Frightening dreams",
+        "id": 523,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Frightening thoughts",
+        "id": 427,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Hair loss",
+        "id": 361,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "SkinLocations",
+            "id": 28,
+            "q": "Where are you experiencing hair loss?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 861,
+                "vl": "Scalp",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Detail",
+            "id": 24,
+            "q": "Hair loss:",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 639,
+                "vl": "top of head",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 640,
+                "vl": "receding hairline",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Hallucinations",
+        "id": 381,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Headache",
+        "id": 115,
+        "rk": 1,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Detail",
+            "id": 24,
+            "q": "Headache:",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 282,
+                "vl": "wakes you up at night",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 363,
+                "vl": "about the same time of day",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Quality",
+            "id": 5,
+            "q": "How would you describe your headache?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 361,
+                "vl": "sharp or stabbing",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 287,
+                "vl": "dull or achy",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 362,
+                "vl": "burning or stinging",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 646,
+                "vl": "pressure or fullness",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 286,
+                "vl": "throbbing",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Radio",
+            "nm": "Severity",
+            "id": 7,
+            "q": "How severe is your headache?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 645,
+                "vl": "mild",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 113,
+                "vl": "moderate",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 112,
+                "vl": "severe",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Side",
+            "id": 11,
+            "q": "On which side of your body is your headache located?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1013,
+                "vl": "front",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 1014,
+                "vl": "back",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 1016,
+                "vl": "left side",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 1015,
+                "vl": "right side",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 274,
+                "vl": "one side only",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 275,
+                "vl": "both sides",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Headache brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 614,
+                "vl": "or made worse by emotional stress",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 647,
+                "vl": "or made worse by bending over",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 812,
+                "vl": "or made worse by high altitudes",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 277,
+                "vl": "or made worse by daily activities",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 284,
+                "vl": "or made worse by fatigue",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 263,
+                "vl": "or made worse by exercise or physical activity",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 283,
+                "vl": "or made worse by missing meals",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 276,
+                "vl": "or made worse by coughing or sneezing",
+                "mcl": "Audio",
+                "mloc": "ad-0283-hz-001.mp3",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 281,
+                "vl": "or made worse by change in sleep pattern",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Better",
+            "id": 16,
+            "q": "Headache",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 285,
+                "vl": "better with rest",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Headache associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 815,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Radio",
+            "nm": "Onset",
+            "id": 18,
+            "q": "Headache onset",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 115,
+                "vl": "sudden",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 114,
+                "vl": "gradual",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Radio",
+            "nm": "Duration",
+            "id": 21,
+            "q": "How long does your headache last?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 824,
+                "vl": "less than one hour",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 823,
+                "vl": "1 - 3 hours",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 1040,
+                "vl": "more than three hours",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Headache (worst ever)",
+        "id": 366,
+        "rk": 5,
+        "txt": "If you are experiencing a severe headache considered to be the worst ever, please seek emergency medical attention.",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Hearing voices",
+        "id": 508,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Impaired color vision",
+        "id": 566,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Impaired judgement",
+        "id": 386,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Impaired social skills",
+        "id": 478,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Impulsive behavior",
+        "id": 265,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Inappropriate behavior",
+        "id": 490,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Itching or burning",
+        "id": 129,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "SkinLocations",
+            "id": 28,
+            "q": "Where are you experiencing itching or burning?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 975,
+                "vl": "Scalp",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Lack of emotion",
+        "id": 423,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Lack of motivation",
+        "id": 424,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Lack of pleasure",
+        "id": 422,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Lightheadedness",
+        "id": 141,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Lightheadedness brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 206,
+                "vl": "or made worse by standing",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 402,
+                "vl": "or made worse by standing",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Loss of consciousness",
+        "id": 276,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Loss of consciousness brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 1456,
+                "vl": "or made worse by dehydration (fluid loss)",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 254,
+                "vl": "or made worse by heat",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you experienced loss of consciousness brought on or made worse by heat please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 255,
+                "vl": "or made worse by exercise or physical activity",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you experienced loss of consciousness brought on or made worse by exercise or physical activity please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 540,
+                "vl": "or made worse by scuba diving",
+                "mcl": "",
+                "mloc": "",
+                "txt": "If you experienced loss of consciousness associated with SCUBA diving please seek emergency medical attention.",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Better",
+            "id": 16,
+            "q": "Loss of consciousness",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 257,
+                "vl": "better with drinking fluids",
+                "mcl": "Image",
+                "mloc": "skin_beauty_10.jpg",
+                "txt": "If you experienced loss of consciousness please seek emergency medical attention.",
+                "ovrids": null
+              },
+              {
+                "id": 258,
+                "vl": "better with rest",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Lump or bulge",
+        "id": 148,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Memory problems",
+        "id": 146,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Detail",
+            "id": 24,
+            "q": "Memory problems:",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 583,
+                "vl": "difficulty remembering recent events",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 1017,
+                "vl": "difficulty remembering distant past events",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Mood swings",
+        "id": 267,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Multiple bruises of different ages",
+        "id": 493,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Numbness or tingling",
+        "id": 164,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Numbness or tingling associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 496,
+                "vl": "animal bite",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Paranoid behavior",
+        "id": 369,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Personality changes",
+        "id": 178,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Poor concentration",
+        "id": 500,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Pulling out hair",
+        "id": 533,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Punching or kicking in sleep",
+        "id": 595,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Repeats phrases",
+        "id": 485,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Repetitive behaviors",
+        "id": 467,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Restless (tossing and turning) sleep",
+        "id": 527,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Sadness",
+        "id": 428,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Scratching",
+        "id": 610,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Seizures (uncontrollable jerking of limbs)",
+        "id": 468,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Detail",
+            "id": 24,
+            "q": "Seizures (uncontrollable jerking of limbs):",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 579,
+                "vl": "no memory of event",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Worse",
+            "id": 15,
+            "q": "Seizures (uncontrollable jerking of limbs) brought on",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 638,
+                "vl": "or made worse by fever",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 1172,
+                "vl": "or made worse by heat",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              },
+              {
+                "id": 539,
+                "vl": "or made worse by scuba diving",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Sense of impending doom",
+        "id": 367,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Skin irritation",
+        "id": 207,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Sleep walking",
+        "id": 591,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Slow thinking",
+        "id": 501,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Spinning sensation",
+        "id": 220,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Swelling",
+        "id": 5,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Better",
+            "id": 16,
+            "q": "Swelling",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 331,
+                "vl": "better with ice",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Tenderness to touch",
+        "id": 266,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "Associated",
+            "id": 17,
+            "q": "Tenderness to touch associated with …",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 434,
+                "vl": "recent injury or trauma",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Unusual behavior",
+        "id": 393,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Visible bugs or parasites",
+        "id": 522,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Visible deformity",
+        "id": 248,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Warm to touch",
+        "id": 252,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "White specks on scalp or hair",
+        "id": 613,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      }
+    ]
+  },
+  "status": "ok"
+}

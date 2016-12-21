@@ -1,0 +1,200 @@
+{
+  "code": 1,
+  "data": {
+    "symptoms": [
+      {
+        "nm": "Bald spots (hair)",
+        "id": 362,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "SkinLocations",
+            "id": 28,
+            "q": "Where are you experiencing bald spots (hair)?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 856,
+                "vl": "Scalp",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Brittle hair",
+        "id": 363,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Confusion",
+        "id": 57,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Crawling sensation",
+        "id": 611,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Feeling something moving on scalp",
+        "id": 612,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Hair loss",
+        "id": 361,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "SkinLocations",
+            "id": 28,
+            "q": "Where are you experiencing hair loss?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 861,
+                "vl": "Scalp",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          },
+          {
+            "ty": "Check",
+            "nm": "Detail",
+            "id": 24,
+            "q": "Hair loss:",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 639,
+                "vl": "top of head",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Headache",
+        "id": 115,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Itching or burning",
+        "id": 129,
+        "rk": 0,
+        "txt": "",
+        "qclss": [
+          {
+            "ty": "Check",
+            "nm": "SkinLocations",
+            "id": 28,
+            "q": "Where are you experiencing itching or burning?",
+            "mcl": "",
+            "mloc": "",
+            "quals": [
+              {
+                "id": 975,
+                "vl": "Scalp",
+                "mcl": "",
+                "mloc": "",
+                "txt": "",
+                "ovrids": null
+              }
+            ]
+          }
+        ],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Scratching",
+        "id": 610,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Skin irritation",
+        "id": 207,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Slow thinking",
+        "id": 501,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "Visible bugs or parasites",
+        "id": 522,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      },
+      {
+        "nm": "White specks on scalp or hair",
+        "id": 613,
+        "rk": 0,
+        "txt": "",
+        "qclss": [],
+        "locs": null,
+        "bps": null
+      }
+    ]
+  },
+  "status": "ok"
+}
