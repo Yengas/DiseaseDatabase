@@ -29,4 +29,4 @@ def downloadSymptoms(api, directory='./output/symptoms'):
 
 if __name__ == "__main__":
     api = webmd.API()
-    downloadSymptoms(api)
+    print(api.conditions([api.make_symptom(14, [244, 45])]).text)

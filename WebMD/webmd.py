@@ -15,12 +15,18 @@ class API(object):
         payload = API.make_request_body({ "bodypartid": bodypartid }, age, gender)
         return API.make_request(url, payload);
 
-    def conditions(self, symptoms):
-        pass
+    def conditions(self, symptoms, age=20, gender="M", maxconditions=200):
+        url = self.make_endpoint('conditions');
+        payload = API.make_request_body({ "maxconditions": maxconditions, "bodyparts": symptoms }, age, gender)
+        return API.make_request(url, payload)
 
     def make_endpoint(self, endpoint):
         self.base = urllib.parse.urljoin("%s://%s/" % (self.protocol, self.host), self.service)
         return self.base + '/' + endpoint;
+
+    @staticmethod
+    def make_symptom(bodypartid, symptoms):
+        return { "id": bodypartid, "symptoms": list(map(lambda symptomid: {"id": symptomid, "qclss": []}, symptoms))}
 
     @staticmethod
     def make_request_body(dict, age, gender):
