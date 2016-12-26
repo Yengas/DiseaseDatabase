@@ -1,7 +1,4 @@
-from WebMD.webmd import API
+from WebMD.reader import readDatabase
 
 if __name__ == "__main__":
-    api = API()
-    #print(api.conditions([api.make_symptom(14, [244, 45])]).text)
-    #downloadConditions(api)
-    print(api)
+    readDatabase('./data')
