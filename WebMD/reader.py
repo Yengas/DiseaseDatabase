@@ -14,11 +14,12 @@ def findPart(parts, id):
 # Reads a given database of json files to retrieve a oop database
 def readDatabase(folder):
     symptomPath = os.path.sep.join((folder, 'symptoms'))
+    conditionPath = os.path.sep.join((folder, 'conditions'))
     partsPath = os.path.sep.join((folder, 'body_parts.json'))
     parts = []
 
     # Open the parts file.
-    with open(partsPath, "r") as partsFile:
+    with open(partsPath) as partsFile:
         partsObject = json.load(partsFile)
         # Put each part to the parts arr by parsing to an object
         for k, v in partsObject.items():
@@ -36,6 +37,20 @@ def readDatabase(folder):
             symptomsObject = json.load(symptomFile)
             # Put each symptom to its corresponding body part.
             for symptom in symptomsObject['data']['symptoms']:
-                part.addSymptom(Symptom(id=symptom['id'], name=symptom['nm']))
+                part.add_symptom(Symptom(id=symptom['id'], name=symptom['nm']))
+
+    # List each condition and put them to the corresponding symptoms
+    for conditionsFilePath in os.listdir(conditionPath):
+        with open(os.sep.join((conditionPath, conditionsFilePath))) as conditionFile:
+            conditions = json.load(conditionFile)
+            if len(conditions['data']['conditions']) <= 0:
+                continue
+            # Find symptom by finding the body part first.
+            symptoms = findPart(parts, int(conditions['meta']['bodypart']['id'])).symptoms()
+            # Then call the same function to find symptom from that body part's symptoms.
+            symptom = findPart(symptoms, int(conditions['meta']['symptom'][0]['id']))
+            for condition in conditions['data']['conditions']:
+                if not condition is None:
+                    symptom.add_condition(Condition(id=condition['id'],name=condition['name'],url=condition['curl']))
 
     return parts
