@@ -1,0 +1,1 @@
+{"meta": {"symptom": [{"name": "Pressure or fullness", "id": 268}], "bodypart": {"name": "Groin", "id": 34}}, "status": "ok", "code": 1, "data": {"conditions": [{"chronid": "091e9c5e8001dd21", "ccui": "C0019294", "weight": 1.0, "tid": 4282, "conchronid": "091e9c5e808e7b01", "name": "Hernia", "sev": 0, "curl": "http://www.webmd.com/hw/hernia/hw170909.asp", "id": 138, "lev": 5}]}}

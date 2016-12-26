@@ -1,0 +1,1 @@
+{"meta": {"symptom": [{"name": "Red spots", "id": 271}], "bodypart": {"name": "Mouth", "id": 7}}, "status": "ok", "code": 1, "data": {"conditions": [{"chronid": "091e9c5e8001d59e", "ccui": "C0036285", "weight": 1.0, "tid": 4286, "conchronid": "091e9c5e808e7bbe", "name": "Scarlet fever", "sev": 0, "curl": "http://www.webmd.com/hw/infection/tp21204.asp", "id": 222, "lev": 5}]}}

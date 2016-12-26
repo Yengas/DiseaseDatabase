@@ -1,0 +1,1 @@
+{"meta": {"symptom": [{"name": "Smooth tongue", "id": 539}], "bodypart": {"name": "Mouth", "id": 7}}, "status": "ok", "code": 1, "data": {"conditions": [{"chronid": "091e9c5e8001ab42", "ccui": "C0039730", "weight": 1.8, "tid": 4273, "conchronid": "091e9c5e808e7b58", "name": "Thalassemia", "sev": 0, "curl": "http://www.webmd.com/hw/anemia/hw184662.asp", "id": 676, "lev": 5}]}}
