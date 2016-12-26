@@ -2,6 +2,15 @@ import json
 import sys
 import os
 
+# Adds given part to a list.
+def add_part(parts, part):
+    parts.append(part)
+
+# Finds the given part from a list of parts.
+def find_by_id(parts, id):
+    return next(filter(lambda part: part.id == id, parts))
+
+# Read a file in the data folder and parse as json.
 def readData(file):
     with open('./data/%s' % (file)) as file:
         return json.loads(file.read())

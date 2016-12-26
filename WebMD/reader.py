@@ -1,15 +1,7 @@
 import os
 import json
 from .models import *
-from .helpers import getBodyPart
-
-# Adds given part to a list.
-def addPart(parts, part):
-    parts.append(part)
-
-# Finds the given part from a list of parts.
-def findPart(parts, id):
-    return next(filter(lambda part: part.id == id, parts))
+from .helpers import getBodyPart, add_part, find_by_id
 
 # Reads a given database of json files to retrieve a oop database
 def readDatabase(folder):
@@ -23,14 +15,14 @@ def readDatabase(folder):
         partsObject = json.load(partsFile)
         # Put each part to the parts arr by parsing to an object
         for k, v in partsObject.items():
-            addPart(parts, BodyPart(id=int(k), name=v))
+            add_part(parts, BodyPart(id=int(k), name=v))
 
     # List symptoms directory to get each symptom
     for symptomFilePath in os.listdir(symptomPath):
         # Find the body part name and id from the file name
         part = getBodyPart(symptomFilePath)
         # Find the part from the parts array by the id defined in file
-        part = findPart(parts, int(part['id']))
+        part = find_by_id(parts, int(part['id']))
 
         # Open the file
         with open(os.sep.join((symptomPath, symptomFilePath))) as symptomFile:
@@ -46,9 +38,9 @@ def readDatabase(folder):
             if len(conditions['data']['conditions']) <= 0:
                 continue
             # Find symptom by finding the body part first.
-            symptoms = findPart(parts, int(conditions['meta']['bodypart']['id'])).symptoms()
+            symptoms = find_by_id(parts, int(conditions['meta']['bodypart']['id'])).symptoms()
             # Then call the same function to find symptom from that body part's symptoms.
-            symptom = findPart(symptoms, int(conditions['meta']['symptom'][0]['id']))
+            symptom = find_by_id(symptoms, int(conditions['meta']['symptom'][0]['id']))
             for condition in conditions['data']['conditions']:
                 if not condition is None:
                     symptom.add_condition(Condition(id=condition['id'],name=condition['name'],url=condition['curl']))
