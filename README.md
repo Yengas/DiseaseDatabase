@@ -12,3 +12,4 @@ This is a scraper project that scrapes `symptoms.webmd` to create a database of 
 ### Required modules
 - requests
 - pyqt5
+- validators
