@@ -9,4 +9,6 @@ class SymptomWidget(QWidget):
         self.ui.setupUi(self)
         self.ui.retranslateUi(self)
 
-    # Implement method to set widget items.
+    # Set ui data from symptom.
+    def set(self, symptom):
+        self.ui.symptom_name.setText(symptom.name)

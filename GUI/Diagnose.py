@@ -3,7 +3,7 @@ from .generated.DiagnosePage import Ui_DiagnosePage
 from .BodyPartWidget import BodyPartWidget
 
 class Diagnose(QMainWindow):
-    def __init__(self):
+    def __init__(self, parts):
         super().__init__()
 
         self.ui = Ui_DiagnosePage()
@@ -12,10 +12,11 @@ class Diagnose(QMainWindow):
         # pyuic5 generated uis.
         self.ui.setupUi(self)
         self.ui.retranslateUi(self)
-        self.setSymptoms([{ 'name': 'test' }])
+        self.setSymptoms(parts)
 
     def setSymptoms(self, parts):
         part = parts[0]
+
         widget = BodyPartWidget()
         widget.set(part)
         widgetItem = QListWidgetItem(self.ui.symptom_list_view)

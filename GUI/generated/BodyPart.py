@@ -21,7 +21,7 @@ class Ui_BodyPart(object):
         self.body_part_label.setFont(font)
         self.body_part_label.setObjectName("body_part_label")
         self.verticalLayout.addWidget(self.body_part_label)
-        self.symptom_list = QtWidgets.QListView(BodyPart)
+        self.symptom_list = QtWidgets.QListWidget(BodyPart)
         self.symptom_list.setObjectName("symptom_list")
         self.verticalLayout.addWidget(self.symptom_list)
 
