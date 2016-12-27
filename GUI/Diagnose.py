@@ -28,6 +28,7 @@ class Diagnose(QMainWindow):
     def pick_symptom(self, part, symptom):
         try:
             idx = self.picked.index(part)
+            self.picked[idx].mSymptoms = [x for x in self.picked[idx].mSymptoms if x.name != symptom.name]
             self.picked[idx].add_symptom(symptom)
         except(ValueError):
             newPart = BodyPart(id=part.id, name=part.name)
@@ -36,6 +37,11 @@ class Diagnose(QMainWindow):
         self.set_symptoms(self.picked)
         self.set_conditions(self.picked)
 
+    # Gets called on symptom remove.
+    def on_remove(self):
+        self.picked = [ x for x in self.picked if len(x.symptoms()) > 0]
+        self.set_symptoms(self.picked)
+        self.set_conditions(self.picked)
 
     # Returns part by filtering global parts.
     def getPartByName(self, name):
@@ -72,7 +78,7 @@ class Diagnose(QMainWindow):
 
         for part in parts:
             widget = BodyPartWidget()
-            widget.set(part)
+            widget.set(part, self.on_remove)
             widgetItem = QListWidgetItem(self.ui.symptom_list_view)
             widgetItem.setSizeHint(widget.sizeHint())
             self.ui.symptom_list_view.addItem(widgetItem)

@@ -10,5 +10,11 @@ class SymptomWidget(QWidget):
         self.ui.retranslateUi(self)
 
     # Set ui data from symptom.
-    def set(self, symptom):
+    def set(self, symptom, method):
+        self.symptom = symptom
+        self.method = method
         self.ui.symptom_name.setText(symptom.name)
+        self.ui.remove_button.clicked.connect(self.clicked)
+
+    def clicked(self):
+        self.method(self.symptom)
