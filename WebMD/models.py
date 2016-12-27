@@ -22,7 +22,14 @@ class BodyPart(object):
         self.mSymptoms.append(symptom)
 
 class Condition(object):
-    def __init__(self, id, name, url):
+    def __init__(self, id, name, about):
         self.id = id
         self.name = name
-        self.url = url
+        self.about = about
+        self.weight = 0
+
+    def add_weight(self):
+        self.weight += 1
+
+    def __eq__(self, other):
+        return self.id == other.id;

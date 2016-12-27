@@ -8,3 +8,7 @@ This is a scraper project that scrapes `symptoms.webmd` to create a database of 
 ├── WebMD       # WebMD api related files and folders as a python module
 └── __main__.py # Main script to parse command line arguments
 ```
+
+### Required modules
+- requests
+- pyqt5

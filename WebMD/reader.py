@@ -43,6 +43,6 @@ def readDatabase(folder):
             symptom = find_by_id(symptoms, int(conditions['meta']['symptom'][0]['id']))
             for condition in conditions['data']['conditions']:
                 if not condition is None:
-                    symptom.add_condition(Condition(id=condition['id'],name=condition['name'],url=condition['curl']))
+                    symptom.add_condition(Condition(id=condition['id'],name=condition['name'],about=condition['curl']))
 
     return parts
