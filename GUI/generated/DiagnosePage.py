@@ -77,7 +77,7 @@ class Ui_DiagnosePage(object):
         self.label_4.setObjectName("label_4")
         self.verticalLayout_3.addWidget(self.label_4)
         self.verticalLayout_5.addLayout(self.verticalLayout_3)
-        self.condition_list_view = QtWidgets.QListView(self.centralwidget)
+        self.condition_list_view = QtWidgets.QListWidget(self.centralwidget)
         self.condition_list_view.setObjectName("condition_list_view")
         self.verticalLayout_5.addWidget(self.condition_list_view)
         self.horizontalLayout_3.addLayout(self.verticalLayout_5)

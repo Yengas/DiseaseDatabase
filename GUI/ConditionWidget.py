@@ -9,4 +9,8 @@ class ConditionWidget(QWidget):
         self.ui.setupUi(self)
         self.ui.retranslateUi(self)
 
-    # Implement method to set condition from condition model
+    # Set fields to the given condition.
+    def set(self, condition):
+        self.ui.condition_name.setText(condition.name)
+        self.ui.condition_about.setText(condition.about)
+        self.ui.weight_value.setText(str(condition.weight))

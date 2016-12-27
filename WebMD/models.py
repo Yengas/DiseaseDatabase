@@ -10,6 +10,9 @@ class Symptom(object):
     def add_condition(self, condition):
         self.mConditions.append(condition)
 
+    def __eq__(self, other):
+        return self.id == other.id
+
 class BodyPart(object):
     def __init__(self, id, name):
         self.id = id
@@ -20,6 +23,9 @@ class BodyPart(object):
         return self.mSymptoms
     def add_symptom(self, symptom):
         self.mSymptoms.append(symptom)
+
+    def __eq__(self, other):
+        return self.id == other.id;
 
 class Condition(object):
     def __init__(self, id, name, about):
